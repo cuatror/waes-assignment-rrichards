@@ -36,18 +36,16 @@ Show your coding skills and what you value in software engineering. We value new
 * com.waes.assignment.rrichards.service
 
 ## Tests
-
 *  Run tests: mvn clean test
 *  Compile: mvn clean compile
 *  Local install: mvn clean install
 
 ## Endpoints
-*  GET http://localhost:8080/v1/diff
 *  PUT http://localhost:8080/v1/diff/ID/left
 *  PUT http://localhost:8080/v1/diff/ID/right
+*  GET http://localhost:8080/v1/diff/ID
 
-* Post Data: 
-
+## Post Data: 
 * Json: {"data": "aGVsbG86d29ybGQ="}
 * Json: {"data": "aGVsbG86d34xbGA="}
 * Json: {"data": "aGVsbG86d34xbty982b="}
